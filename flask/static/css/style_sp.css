@@ -1,0 +1,104 @@
+html {
+  font-size: 50.5%;
+}
+
+/* ul {
+  justify-content: space-around;
+  margin: 0;
+} */
+
+.programming__title {
+  height: 300px;
+  line-height: 300px;
+  font-size: 5rem;
+}
+
+.sec1__flex__box {
+  width: 90%;
+}
+
+.sec1__flex__box p {
+  margin: 50px 0 0;
+}
+
+.sec2 p {
+  width: 90%;
+}
+
+.sec4__portfolio__card > p {
+  width: 90%;
+}
+
+.sec4 img {
+  width: 100%;
+}
+
+/* --------------------------------------- ハンバーガーメニューの追加 -------------------------------------------------- */
+/* 
+header {
+  position: absolute;
+  width: 100%;
+  display: none;
+} */
+/* ハンバーガーボタンをクリックしたときに、メニューを出現させる用css */
+/* .hum_header {
+  display: block;
+}
+
+.hum_menu {
+  width: 50%;
+}
+
+ul {
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100px;
+}
+
+.btn-trigger {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #d88d00;
+  z-index: 1;
+} */
+/* ハンバーガーメニューの横線設定 */
+/* .btn-trigger span {
+  position: absolute;
+  display: block;
+  width: 28px;
+  height: 2px;
+  background-color: #1166d7;
+  transition: all 0.5s;
+  left: 0;
+  right: 0;
+  margin: auto;
+} */
+/* ハンバーガーメニューの横線位置 1本目 */
+/* .btn-trigger span:first-of-type {
+  top: 10px;
+} */
+/* ハンバーガーメニューの横線位置 2本目 */
+/* .btn-trigger span:nth-of-type(2) {
+  top: 20px;
+} */
+/* ハンバーガーメニューの横線位置 3本目 */
+/* .btn-trigger span:last-of-type {
+  bottom: 10px;
+} */
+/* ハンバーガーメニューをクリックした後の横線の動き 1本目 */
+/* .btn-trigger.active span:first-of-type {
+  transform: rotate(45deg);
+  top: 20px;
+} */
+/* ハンバーガーメニューをクリックした後の横線の動き 2本目 */
+/* .btn-trigger.active span:nth-of-type(2) {
+  opacity: 0;
+} */
+/* ハンバーガーメニューをクリックした後の横線の動き 3本目 */
+/* .btn-trigger.active span:last-of-type {
+  transform: rotate(-45deg);
+  bottom: 20px;
+} */

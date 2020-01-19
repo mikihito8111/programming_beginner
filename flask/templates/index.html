@@ -1,0 +1,109 @@
+{% extends 'base.html' %} {% block content %}
+
+<h1 id="title" class="programming__title">Programming</h1>
+
+<section id="sec1" class="sec1">
+  <h2 class="flex_dom">Flexbox</h2>
+  <!-- JavaScript課題1 ここから -->
+  <div class="center_button">
+    <button id="flex_add_button">flexboxを増やす</button>
+  </div>
+  <!-- JavaScript課題1 ここまで -->
+  <div class="sec1__flex">
+    <div class="sec1__flex__box">
+      <h3>ここはタイトル</h3>
+      <p>
+        ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。
+      </p>
+    </div>
+    <div class="sec1__flex__box">
+      <h3>ここはタイトル</h3>
+      <p>
+        ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。
+      </p>
+    </div>
+    <div class="sec1__flex__box">
+      <h3>ここはタイトル</h3>
+      <p>
+        ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。ここは文章が入ります。
+      </p>
+    </div>
+  </div>
+</section>
+<section id="sec2" class="sec2">
+  <h2>About</h2>
+
+  <p>
+    ここは紹介文章が入ります。皆さんのプログラミングが上達するのが楽しみです。結果はやった分なので将来は明るいと確信して精進していきましょう！大体の紹介は終わったので、次は、スキルについて書いていきましょう。ここは紹介文章が入ります。皆さんのプログラミングが上達するのが楽しみです。結果はやった分なので将来は明るいと確信して精進していきましょう！大体の紹介は終わったので、次は、スキルについて書いていきましょう。ここは紹介文章が入ります。皆さんのプログラミングが上達するのが楽しみです。結果はやった分なので将来は明るいと確信して精進していきましょう！大体の紹介は終わったので、次は、スキルについて書いていきましょう。ここは紹介文章が入ります。皆さんのプログラミングが上達するのが楽しみです。結果はやった分なので将来は明るいと確信して精進していきましょう！大体の紹介は終わったので、次は、スキルについて書いていきましょう。ここは紹介文章が入ります。皆さんのプログラミングが上達するのが楽しみです。結果はやった分なので将来は明るいと確信して精進していきましょう！大体の紹介は終わったので、次は、スキルについて書いていきましょう。
+  </p>
+</section>
+<section id="sec3" class="sec3">
+  <h2>Skill</h2>
+
+  <h3>使用言語</h3>
+
+  <p class="sec3__p__margin">フロントエンド</p>
+  <p>HTML/CSS/JavaScript/jQuery</p>
+  <p class="sec3__p__margin">バックエンド</p>
+  <p>Python/sqlite3/Flask</p>
+</section>
+
+<section id="sec4" class="sec4">
+  <h2>Portfolio</h2>
+  <!-- JavaScript課題2 ここから -->
+  <div class="center_button">
+    <button id="change_image">画像変更ボタン</button>
+  </div>
+  <!-- JavaScript課題2 ここまで -->
+  <div class="sec4__portfolio">
+    <div
+      class="sec4__portfolio__card slide-left"
+      data-plugin-options='{"reverse": false}'
+    >
+      <div class="sec4__caption">
+        <div>
+          <img class="sec4_src" src="../static/image/sea.jpg" alt="日南海岸" />
+        </div>
+        <p>日南市</p>
+      </div>
+      <p>
+        朝5時ごろのこと、朝日が眩しく輝いた。たまには日常を忘れて太陽を見るのも悪くない。
+      </p>
+    </div>
+    <div
+      class="sec4__portfolio__card__reverse slide-right"
+      data-plugin-options='{"reverse": false}'
+    >
+      <div class="sec4__caption">
+        <div>
+          <img src="../static/image/oita.jpg" alt="湯布院" />
+        </div>
+        <p>湯布院町</p>
+      </div>
+      <p>
+        天気は悪いが、そこまで不快感のない町並みであった。
+      </p>
+    </div>
+    <div
+      class="sec4__portfolio__card slide-bottom"
+      data-plugin-options='{"reverse": false}'
+    >
+      <div class="sec4__caption">
+        <div>
+          <img src="../static/image/sky.jpg" alt="機内" />
+        </div>
+        <p>機内</p>
+      </div>
+      <p>
+        地上から見る景色、空から見る景色、見ているものは一緒なのにここまで感動するのは何故だろう。
+      </p>
+    </div>
+  </div>
+</section>
+<!-- JavaScript課題4 ここから -->
+<div class="top_move_button">
+  <button id="top_move">↑</button>
+</div>
+<!-- JavaScript課題4 ここまで -->
+
+{% endblock %}

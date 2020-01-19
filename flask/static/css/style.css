@@ -1,0 +1,409 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* font-size:rem;を使用するため、rootとなるhtmlのfont-sizeを62.5%(10px)に設定している。 */
+html {
+  font-size: 62.5%;
+}
+
+/* GoogleChromeでbodyタグのfont-sizeをremにすると、バグが起きるらしいのでbodyタグだけ初期にemを使用している。 */
+body {
+  line-height: 1;
+  font-size: 1.6em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Noto Sans Japanese", "Arial", YuGothic, "Yu Gothic",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo,
+    "ＭＳ ゴシック", sans-serif;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* ------------------------------ ここからcssを記述してください ----------------------------------------- */
+
+/* header {
+  background-color: #d88d00;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  list-style: none;
+  margin: 0 20%;
+} */
+
+.programming__title {
+  background-image: url(../image/top.jpg);
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+  line-height: 650px;
+  color: #fff;
+  font-size: 9rem;
+}
+
+section h2 {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.sec1 {
+  margin: 100px 50px 0;
+}
+
+.sec1__flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.sec1__flex__box {
+  width: 350px;
+  margin-bottom: 100px;
+}
+
+.sec1__flex__box h3 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.sec1__flex__box p {
+  margin: 50px 20px 0 20px;
+}
+
+.sec2 {
+  color: #fff;
+  background-color: #d88d00;
+  padding: 100px 0;
+}
+
+.sec2 p {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 100px;
+  line-height: 2;
+}
+
+.sec3 {
+  background-image: url(../image/work.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.sec3 h2 {
+  margin-bottom: 100px;
+}
+
+.sec3 h3 {
+  border-bottom: solid 2px white;
+  width: 30%;
+  margin: 0 auto;
+  line-height: 2;
+  font-size: 2.2rem;
+}
+.sec3 p {
+  width: 60%;
+  margin: 0 auto;
+  line-height: 2;
+  font-weight: 600;
+}
+
+.sec4 {
+  margin: 100px 0;
+}
+
+.sec4 img {
+  width: 70%;
+}
+
+.sec4__portfolio {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.sec4__portfolio__card {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec4__portfolio__card__reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 100px 0;
+}
+
+.sec4__caption {
+  width: 50%;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.sec4__caption p {
+  margin-top: 2%;
+}
+
+.sec4__portfolio__card > p {
+  width: 500px;
+  flex-grow: 2;
+  margin-top: 10%;
+  text-align: center;
+}
+
+.sec4__portfolio__card__reverse > p {
+  width: 500px;
+  margin-top: 10%;
+  text-align: center;
+  flex-grow: 2;
+}
+
+footer {
+  height: 50px;
+  color: #fff;
+  background-color: #1166d7;
+  text-align: center;
+  line-height: 50px;
+  margin-top: auto;
+}
+
+.sec3 p.sec3__p__margin {
+  margin-top: 20px;
+}
+
+.flex {
+  display: flex;
+  align-content: center;
+}
+
+.hogehoge {
+  color: blue;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+/* Javascript課題 */
+
+/* 課題1 */
+.center_button {
+  text-align: center;
+}
+
+/* 課題4 */
+.top_move_button {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* drawerメニュー追加後のCSS変更 */
+a {
+  color: #000;
+  font-size: 2rem;
+}
+
+.form_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: 100px 0;
+}
+
+.submit_field {
+  display: flex;
+  justify-content: center;
+}
+
+.bbscontent_a {
+  font-size: 12px;
+  margin: 0 auto;
+  color: #878787;
+}
+
+.form_field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bbs_content {
+  border-bottom: 1px solid #111;
+  width: 60%;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

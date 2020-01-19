@@ -1,0 +1,15 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="form_content">
+  <form action="/edit">
+    <input type="hidden" value="{{comment['id']}}" name="item_id" />
+    <div>
+      <label for="text_content">内容：</label><br />
+      <textarea id="text_content" name="comment" cols="100" rows="5">
+{{comment["comment"]}}</textarea
+      ><br />
+      <input type="submit" name="save" value="編集する" />
+    </div>
+  </form>
+</div>
+{% endblock %}
