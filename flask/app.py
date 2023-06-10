@@ -10,7 +10,7 @@ from flask import Flask, render_template, request, redirect, session
 app = Flask(__name__)
 
 # Flask では標準で Flask.secret_key を設定すると、sessionを使うことができます。この時、Flask では session の内容を署名付きで Cookie に保存します。
-app.secret_key = "sunabakoza"
+app.secret_key = "test"
 
 from datetime import datetime
 
